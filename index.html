@@ -1,10 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>What's For Dinner</title>
   </head>
-  <body>
-    
+  <body class="background" src="./assets/burger-friends.jpg" alt="birds eye view of cups and food">
+    <nav>
+      <h3>What's for Dinner?</h2>
+    </nav>
+    <section class="What-are-you-Looking-For">
+      <article>
+        <h2>What are you Looking For?</h2>
+        <input type="radio" id="Side"/>
+          <label for="Side">Side</label>
+        <input type="radio" id="Main-dish"/>
+          <label for="Main-dish">Main Dish</label>
+        <input type="radio" id="Dessert"/>
+          <label for="Dessert">Dessert</label>
+        <input type="radio" id="Entire-Meal"/>
+          <label for="Entire-Meal">Entire Meal</label>
+        <button class="lets-cook-button">LET'S COOK!</button>
+      </article>
+    </section>
+    <section class="You-should-make">
+      <div class="should-make-img">
+        <img class="cookpot" /*src="./assets/cookpot.svg"/* alt="cookingpot image">
+      </div>
+      <div class="should-make-suggestion hidden">
+        <h4>You should make:</h4>
+<!-- some other text here -->
+        <button class="clear-button">Clear</button>
+      </div>
+    </section>
   </body>
+  <!-- <script type="" src=""></script> -->
   <script type="text/javascript" src="main.js"></script>
 </html>
