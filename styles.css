@@ -10,12 +10,13 @@ red - #ee5253
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: medium;
     margin: 0%;
+    padding:0%;
     background-color: lightblue;
-    /* background-image: url("assets/burger-friends.jpg"); */
-    background-repeat: no-repeat;
+    background-image: url("assets/burger-friends.jpg");
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
@@ -25,8 +26,15 @@ nav {
     background-color: #0fb9b1;
     height: 60px;
     width: 100%;
-    padding-left: 20px;
+}
 
+h3{
+    padding-left: 20px;
+}
+
+div {
+    padding: 10px;
+    padding-left: 10px;
 }
 
 .hidden {
@@ -35,29 +43,36 @@ nav {
 
 .two-boxes {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: space-between;
+    height: 500px;
     border: solid purple;
+
 }
 
 .What-are-you-Looking-For {
+    display: grid;
     background-color: rgba(225, 225, 225, .9);
-    display: flex;
-    justify-content: left;
     border: solid red;
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-    width: 600px;
+    align-content: center;
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-left: 35px;
 }
 
 .lets-cook-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 100px;
+    margin-left: 35px;
+    margin-bottom: ;
     height: 40px;
     width: 200px;
     background-color: #0fb9b1;
@@ -67,15 +82,18 @@ nav {
 .radio-buttons {
     display: flex;
     flex-direction: column;
-    align-items: ;
-    padding-right: 300px;
+    margin: 10px;
+    /* padding-right: 100px; */
+    /* padding-right: 300px; */
 }
 
-.You-should-make > div{
+.You-should-make{
     background-color: rgba(225, 225, 225, .9);
-    display: flex;
+    display: grid;
+    align-content: space-evenly;
     justify-content: center;
     border: solid green;
-    height: 300px;
-    width: 600px;
+    padding: 25px;
+    height: 350px;
+    width: 400px;
 }
