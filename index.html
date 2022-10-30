@@ -7,27 +7,27 @@
   </head>
   <body>
     <nav>
-      <h3>What's for Dinner?</h2>
+      <h3>What's for Dinner?</h3>
     </nav>
     <section class="two-boxes">
-      <article class="What-are-you-Looking-For">
+      <form class="What-are-you-Looking-For">
         <h2>What are you Looking For?</h2>
         <div class="radio-buttons">
-          <input type="radio" id="Side"/>
-            <label for="Side">Side</label>
-          <input type="radio" id="Main-dish"/>
-            <label for="Main-dish">Main Dish</label>
-          <input type="radio" id="Dessert"/>
-            <label for="Dessert">Dessert</label>
-          <input type="radio" id="Entire-Meal"/>
-            <label for="Entire-Meal">Entire Meal</label>
+          <div><input type="radio" id="side" name="radio-options"/>
+            <label for="side">Side</label></div>
+          <div><input type="radio" id="main-dish" name="radio-options"/>
+            <label for="main-dish">Main Dish</label></div>
+          <div><input type="radio" id="dessert" name="radio-options"/>
+            <label for="dessert">Dessert</label></div>
+          <div><input type="radio" id="entire-Meal" name="radio-options"/>
+            <label for="entire-Meal">Entire Meal</label></div>
         </div>
-        <div><button class="lets-cook-button">LET'S COOK!</button></div>
-      </article>
+        <button class="lets-cook-button">LET'S COOK!</button>
+      </form>
       <article class="You-should-make">
-      <div class="should-make-img">
-        <img class="cookpot" /*src="./assets/cookpot.svg"/* alt="cookingpot image">
-      </div>
+        <div class="should-make-img">
+          <img class="cookpot" /*src="./assets/cookpot.svg"/* alt="cookingpot image">
+        </div>
       <div class="should-make-suggestion hidden">
         <h4>You should make:</h4>
 <!-- some other text here -->
