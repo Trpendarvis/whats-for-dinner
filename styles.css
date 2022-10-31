@@ -72,7 +72,7 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-left: 35px;
-    margin-bottom: ;
+    /* margin-bottom: ; */
     height: 40px;
     width: 200px;
     background-color: #0fb9b1;
@@ -87,7 +87,7 @@ h2 {
     /* padding-right: 300px; */
 }
 
-.You-should-make{
+.You-should-make {
     background-color: rgba(225, 225, 225, .9);
     display: grid;
     align-content: space-evenly;
@@ -97,3 +97,14 @@ h2 {
     height: 350px;
     width: 400px;
 }
+
+.should-make-suggestion{
+    position: fixed;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+.cookpot {
+    height: 120px;
+    width: 120px; 
+} 
